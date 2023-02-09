@@ -1,7 +1,7 @@
 {
-	"name": "gulp-dust",
+	"name": "idi-gulp-dust",
 	"version": "5.0.0",
-	"description": "Precompile Dust templates",
+	"description": "idi version to Precompile Dust templates",
 	"license": "MIT",
 	"repository": "sindresorhus/gulp-dust",
 	"author": {
@@ -30,11 +30,15 @@
 		"compile"
 	],
 	"dependencies": {
-		"dustjs-linkedin": "^2.4.0",
+		"dustjs-linkedin": "^3.0.1",
 		"plugin-error": "^0.1.2",
 		"through2": "^2.0.0"
 	},
 	"devDependencies": {
+		"eslint": "^5.16.0",
+		"eslint-config-idi": "^1.1.0",
+		"gulp": "^4.0.2",
+		"idi-gulp": "^3.0.0",
 		"mocha": "*",
 		"vinyl": "^2.1.0",
 		"xo": "*"
